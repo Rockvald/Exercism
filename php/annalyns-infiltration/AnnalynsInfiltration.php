@@ -11,13 +11,13 @@ class AnnalynsInfiltration
      * She can make a fast attack if the knight is sleeping,
      * as it takes time for him to get his armor on, so he will be vulnerable.
      *
-     * @param bool $isKnightAwake Whether the knight is awake
+     * @param bool $is_knight_awake Whether the knight is awake
      *
      * @return bool Whether Annalyn can perform a fast attack
      */
-    public function canFastAttack(bool $isKnightAwake): bool
+    public function canFastAttack(bool $is_knight_awake): bool
     {
-        return !$isKnightAwake;
+        return !$is_knight_awake;
     }
 
     /**
@@ -25,18 +25,18 @@ class AnnalynsInfiltration
      *
      * At least one of the group members must be awake, otherwise, spying is a waste of time.
      *
-     * @param bool $isKnightAwake Whether the knight is awake
-     * @param bool $isArcherAwake Whether the archer is awake
-     * @param bool $isPrisonerAwake Whether the prisoner is awake
+     * @param bool $is_knight_awake Whether the knight is awake
+     * @param bool $is_archer_awake Whether the archer is awake
+     * @param bool $is_prisoner_awake Whether the prisoner is awake
      *
      * @return bool Whether Annalyn can spy the group
      */
     public function canSpy(
-        bool $isKnightAwake,
-        bool $isArcherAwake,
-        bool $isPrisonerAwake
+        bool $is_knight_awake,
+        bool $is_archer_awake,
+        bool $is_prisoner_awake
     ): bool {
-        return $isKnightAwake || $isArcherAwake || $isPrisonerAwake;
+        return $is_knight_awake || $is_archer_awake || $is_prisoner_awake;
     }
 
     /**
@@ -45,16 +45,16 @@ class AnnalynsInfiltration
      * She will use a bird sounds to signal the prisoner.
      * The archer must be asleep, as archers are trained in bird signaling and could intercept the message.
      *
-     * @param bool $isArcherAwake Whether the archer is awake
-     * @param bool $isPrisonerAwake Whether the prisoner is awake
+     * @param bool $is_archer_awake Whether the archer is awake
+     * @param bool $is_prisoner_awake Whether the prisoner is awake
      *
      * @return bool Whether Annalyn can signal the prisoner
      */
     public function canSignal(
-        bool $isArcherAwake,
-        bool $isPrisonerAwake
+        bool $is_archer_awake,
+        bool $is_prisoner_awake
     ): bool {
-        return $isPrisonerAwake && !$isArcherAwake;
+        return $is_prisoner_awake && !$is_archer_awake;
     }
 
     /**
@@ -66,19 +66,19 @@ class AnnalynsInfiltration
      * so they can escape before the archer reacts.
      * - If Annalyn does not have her dog but the prisoner is awake and the knight and archer are both sleeping.
      *
-     * @param bool $isKnightAwake Whether the knight is awake
-     * @param bool $isArcherAwake Whether the archer is awake
-     * @param bool $isPrisonerAwake Whether the prisoner is awake
-     * @param bool $isDogPresent Whether the dog is present
+     * @param bool $is_knight_awake Whether the knight is awake
+     * @param bool $is_archer_awake Whether the archer is awake
+     * @param bool $is_prisoner_awake Whether the prisoner is awake
+     * @param bool $is_dog_present Whether the dog is present
      *
      * @return bool Whether Annalyn can liberate the prisoner
      */
     public function canLiberate(
-        bool $isKnightAwake,
-        bool $isArcherAwake,
-        bool $isPrisonerAwake,
-        bool $isDogPresent
+        bool $is_knight_awake,
+        bool $is_archer_awake,
+        bool $is_prisoner_awake,
+        bool $is_dog_present
     ): bool {
-        return ($isDogPresent && !$isArcherAwake) || ($isPrisonerAwake && !$isKnightAwake && !$isArcherAwake);
+        return ($is_dog_present && !$is_archer_awake) || ($is_prisoner_awake && !$is_knight_awake && !$is_archer_awake);
     }
 }
