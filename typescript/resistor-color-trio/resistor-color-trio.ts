@@ -16,13 +16,18 @@ const COLORS = {
 }
 
 /**
+ * Represents one of the 10 standard resistor color bands.
+ */
+type Color = keyof typeof COLORS;
+
+/**
  * Decodes a trio of resistor color bands into a numeric value.
  *
  * @param colors An array of three resistor color bands
  *
  * @returns The colors translated as a label
  */
-export function decodedResistorValue([first, second, third]: Array<keyof typeof COLORS>): string {
+export function decodedResistorValue([first, second, third]: Color[]): string {
     let number = Number(`${COLORS[first]}${COLORS[second]}`) * 10 ** COLORS[third];
     let metricPrefix = '';
 
