@@ -46,7 +46,7 @@ function prune_language_list(array $languages): array
  */
 function current_language(array $languages): string
 {
-    return array_first($languages);
+    return reset($languages);
 }
 
 /**
