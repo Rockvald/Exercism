@@ -9,7 +9,7 @@
  */
 function language_list(?string ...$languages): array
 {
-    return $languages ?: [];
+    return $languages;
 }
 
 /**
