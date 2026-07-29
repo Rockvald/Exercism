@@ -3,7 +3,15 @@
 This repository contains my solutions to [Exercism](https://exercism.org/) coding exercises.  
 All submissions are automatically synced from my Exercism account via the [Exercism Solutions Syncer](https://github.com/apps/exercism-solutions-syncer) bot.
 
-[![Rockvald's Exercism stats](https://exercism-badges.vercel.app/api?username=rockvald&theme=onedark&bg_color=1e1e2e&title_color=89b4fa&text_color=cdd6f4&hide_border=true&custom_title=Stats%20(click%20for%20profile%20details)&hide=mentored&show_icons=true)](https://exercism.io/profiles/Rockvald)
+<!-- EXERCISE_STATS_START -->
+## Exercise statistics
+
+- Javascript: 8 (recent: bird-watcher)
+- Php: 8 (recent: lucky-numbers)
+- Typescript: 8 (recent: space-age)
+
+- Total exercises: 24
+<!-- EXERCISE_STATS_END -->
 
 ## Structure
 
