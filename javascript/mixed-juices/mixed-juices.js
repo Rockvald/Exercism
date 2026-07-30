@@ -40,22 +40,21 @@ export function timeToMixJuice(name) {
  * @returns {number} Number of limes cut
  */
 export function limesToCut(wedgesNeeded, limes) {
+    /**
+     * Maps the size of a lime to the number of wedges it produces.
+     *
+     * @type {Record<string, number>}
+     */
+    const wedges = {
+        'small': 6,
+        'medium': 8,
+        'large': 10,
+    };
     let limesToCut = 0;
     let totalWedges = 0;
 
     while (totalWedges < wedgesNeeded && limesToCut < limes.length) {
-        switch (limes[limesToCut]) {
-            case 'small':
-                totalWedges += 6;
-                break;
-            case 'medium':
-                totalWedges += 8;
-                break;
-            case 'large':
-                totalWedges += 10;
-                break;
-        }
-
+        totalWedges += wedges[limes[limesToCut]];
         limesToCut++;
     }
 
@@ -71,17 +70,10 @@ export function limesToCut(wedgesNeeded, limes) {
  * @returns {string[]} Remaining orders after the time is up
  */
 export function remainingOrders(timeLeft, orders) {
-    let spentTime = 0;
-
-    do {
-        let order = orders.shift();
-
-        if (!order) {
-            break;
-        }
-
-        spentTime += timeToMixJuice(order);
-    } while (spentTime < timeLeft && orders.length > 0);
+    while (timeLeft > 0 && orders.length > 0) {
+        timeLeft -= timeToMixJuice(orders[0]);
+        orders.shift();
+    }
 
     return orders;
 }
