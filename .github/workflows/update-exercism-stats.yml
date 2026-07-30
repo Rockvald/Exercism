@@ -1,7 +1,9 @@
 name: Update Exercism stats in README
 
 on:
-  push:
+  pull_request:
+    types:
+      - closed
     branches:
       - main
 
@@ -11,7 +13,9 @@ permissions:
 jobs:
   update-stats:
     runs-on: ubuntu-latest
-    if: github.event.head_commit.author.name == 'exercism-solutions-syncer[bot]'
+    if: |
+      github.event.pull_request.merged == true &&
+      github.event.pull_request.user.login == 'exercism-solutions-syncer[bot]'
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
