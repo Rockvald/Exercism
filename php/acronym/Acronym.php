@@ -11,9 +11,9 @@ declare(strict_types=1);
  */
 function acronym(string $text): string
 {
-    return str_replace('-', ' ', $text)
-    |> ucwords(...)
-    |> (fn(string $text) => explode(' ', $text))
-    |> (fn(array $words) => array_map(fn(string $word) => mb_substr($word, 0, 1), $words))
-    |> (fn(array $words) => implode('', $words));
+    $text = ucwords(str_replace('-', ' ', $text));
+    $words = explode(' ', $text);
+    $words = array_map(fn(string $word) => mb_substr($word, 0, 1), $words);
+
+    return implode('', $words);
 }
