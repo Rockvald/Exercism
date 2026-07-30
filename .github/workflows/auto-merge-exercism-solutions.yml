@@ -22,3 +22,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_REPO: ${{ github.repository }}
+
+  call-workflow-update-stats:
+    uses: ./.github/workflows/update-exercism-stats.yml
+    secrets: inherit
