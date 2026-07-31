@@ -55,7 +55,9 @@ EOF
 # Parameters:
 #   MESSAGE     The message to log
 log_verbose() {
-    [[ $verbose == true ]] && echo "$@" >&2
+    if [[ $verbose == true ]]; then
+        echo "$@" >&2
+    fi
 }
 
 # run_quiet COMMAND
