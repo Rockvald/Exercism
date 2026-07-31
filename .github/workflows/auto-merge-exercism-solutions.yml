@@ -25,4 +25,6 @@ jobs:
 
   call-workflow-update-stats:
     uses: ./.github/workflows/update-exercism-stats.yml
+    permissions:
+      contents: write
     secrets: inherit
