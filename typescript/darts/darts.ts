@@ -15,7 +15,7 @@ export function score(x: number, y: number): number {
         return 5;
     } else if (dartPosition <= 10) {
         return 1;
-    } else {
-        return 0;
     }
+
+    return 0;
 }
