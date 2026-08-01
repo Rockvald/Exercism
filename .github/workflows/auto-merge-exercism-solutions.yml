@@ -24,6 +24,7 @@ jobs:
           GH_REPO: ${{ github.repository }}
 
   call-workflow-update-stats:
+    needs: auto-merge
     uses: ./.github/workflows/update-exercism-stats.yml
     permissions:
       contents: write
