@@ -16,9 +16,6 @@ jobs:
           fetch-depth: 0
           ref: ${{ github.base_ref }}
 
-      - name: Make script executable
-        run: chmod +x .github/scripts/update-exercism-stats.sh
-
       - name: Run update script
         env:
           GIT_AUTHOR_NAME: "Mathieu Prot"
