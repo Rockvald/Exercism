@@ -22,9 +22,7 @@ export function createVisitor(name, age, ticketId) {
  * @returns {Visitor} The visitor without a ticket
  */
 export function revokeTicket(visitor) {
-    if (visitor.ticketId !== null) {
-        visitor.ticketId = null;
-    }
+    visitor.ticketId = null;
 
     return visitor;
 }
