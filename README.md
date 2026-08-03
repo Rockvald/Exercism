@@ -7,10 +7,10 @@ All submissions are automatically synced from my Exercism account via the [Exerc
 ## Exercise statistics
 
 - Typescript: 10 (recent: darts)
-- Javascript: 10 (recent: high-score-board)
+- Javascript: 11 (recent: amusement-park)
 - Php: 11 (recent: anagram)
 
-- Total exercises: 31
+- Total exercises: 32
 <!-- EXERCISE_STATS_END -->
 
 ## Structure
