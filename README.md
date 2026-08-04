@@ -6,11 +6,11 @@ All submissions are automatically synced from my Exercism account via the [Exerc
 <!-- EXERCISE_STATS_START -->
 ## Exercise statistics
 
-- Typescript: 10 (recent: darts)
+- Typescript: 11 (recent: pangram)
 - Javascript: 11 (recent: amusement-park)
 - Php: 11 (recent: anagram)
 
-- Total exercises: 32
+- Total exercises: 33
 <!-- EXERCISE_STATS_END -->
 
 ## Structure
