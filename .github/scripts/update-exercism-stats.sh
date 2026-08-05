@@ -102,7 +102,7 @@ get_languages() {
 
     while IFS= read -r lang; do
         langs+=("$lang")
-    done < <(find . -mindepth 1 -maxdepth 1 -type d ! -name '.git' ! -name '.github' -printf '%f\n')
+    done < <(find . -mindepth 1 -maxdepth 1 -type d ! -name '.git' ! -name '.github' -printf '%f\n' | sort)
 
     echo "${langs[@]}"
 }
