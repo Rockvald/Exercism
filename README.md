@@ -7,10 +7,10 @@ All submissions are automatically synced from my Exercism account via the [Exerc
 ## Exercise statistics
 
 - Javascript: 12 (recent: lucky-numbers)
-- Php: 12 (recent: atbash-cipher)
+- Php: 13 (recent: bowling)
 - Typescript: 12 (recent: bob)
 
-- Total exercises: 36
+- Total exercises: 37
 <!-- EXERCISE_STATS_END -->
 
 ## Structure
