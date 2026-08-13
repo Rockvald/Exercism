@@ -7,10 +7,10 @@ All submissions are automatically synced from my Exercism account via the [Exerc
 ## Exercise statistics
 
 - Javascript: 13 (recent: lasagna-master)
-- Php: 13 (recent: bowling)
+- Php: 14 (recent: change)
 - Typescript: 13 (recent: word-count)
 
-- Total exercises: 39
+- Total exercises: 40
 <!-- EXERCISE_STATS_END -->
 
 ## Structure
