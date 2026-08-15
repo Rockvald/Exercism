@@ -118,7 +118,7 @@ get_languages() {
 #   0   The exercises found
 get_exercises() {
     local lang_dir="$1"
-    local exercises=()
+    local -a exercises=()
 
     while IFS= read -r line; do
         exercises+=("$line")
@@ -139,14 +139,11 @@ get_exercises() {
 #   0   The exercises found
 #   1   No exercises found
 get_recent_exercises() {
+    local exercise path timestamp
     local lang_dir="$1"
+    local -a timestamps=()
+
     shift
-
-    local exercise
-    local path
-    local timestamp
-    local timestamps=()
-
 
     for exercise in "$@"; do
         path="$lang_dir/$exercise"
@@ -178,12 +175,9 @@ get_recent_exercises() {
 # Exit code:
 #   0   The generated section
 generate_stats_section() {
-    local lang
-    local count
-    local exercises
+    local lang count exercises lang_display
     local total=0
     local recent=""
-    local lang_display
     local section="${START_MARKER}\n## Exercise statistics\n\n"
 
     for lang in "$@"; do
