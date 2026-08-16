@@ -3,7 +3,7 @@
 # Script name: update-exercism-stats.sh
 # Description: Updates the Exercism stats section in the README.md file.
 # Author: Mathieu Prot <62431571+Rockvald@users.noreply.github.com>
-# Version: 1.0.0 (2026-07-28)
+# Version: 1.1.1 (2026-08-15)
 # License: MIT
 #
 # Dependencies:
