@@ -14,7 +14,7 @@ export class Matrix {
      */
     constructor(matrix: string) {
         this.matrix = matrix.split('\n').map(
-            row => row.split(' ').map(num => parseInt(num))
+            row => row.split(' ').map(Number)
         );
     }
 
