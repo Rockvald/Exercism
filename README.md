@@ -7,10 +7,10 @@ All submissions are automatically synced from my Exercism account via the [Exerc
 ## Exercise statistics
 
 - Javascript: 14 (recent: custom-signs)
-- Php: 14 (recent: change)
+- Php: 15 (recent: clock)
 - Typescript: 14 (recent: matrix)
 
-- Total exercises: 42
+- Total exercises: 43
 <!-- EXERCISE_STATS_END -->
 
 ## Structure
