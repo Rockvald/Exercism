@@ -8,9 +8,9 @@ All submissions are automatically synced from my Exercism account via the [Exerc
 
 - Javascript: 15 (recent: captains-log)
 - Php: 15 (recent: clock)
-- Typescript: 14 (recent: matrix)
+- Typescript: 15 (recent: difference-of-squares)
 
-- Total exercises: 44
+- Total exercises: 45
 <!-- EXERCISE_STATS_END -->
 
 ## Structure
