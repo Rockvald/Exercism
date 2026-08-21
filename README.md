@@ -7,10 +7,10 @@ All submissions are automatically synced from my Exercism account via the [Exerc
 ## Exercise statistics
 
 - Javascript: 15 (recent: captains-log)
-- Php: 15 (recent: clock)
+- Php: 16 (recent: collatz-conjecture)
 - Typescript: 15 (recent: difference-of-squares)
 
-- Total exercises: 45
+- Total exercises: 46
 <!-- EXERCISE_STATS_END -->
 
 ## Structure
