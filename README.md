@@ -8,9 +8,9 @@ All submissions are automatically synced from my Exercism account via the [Exerc
 
 - Javascript: 16 (recent: coordinate-transformation)
 - Php: 16 (recent: collatz-conjecture)
-- Typescript: 15 (recent: difference-of-squares)
+- Typescript: 16 (recent: robot-name)
 
-- Total exercises: 47
+- Total exercises: 48
 <!-- EXERCISE_STATS_END -->
 
 ## Structure
