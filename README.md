@@ -6,11 +6,11 @@ All submissions are automatically synced from my Exercism account via the [Exerc
 <!-- EXERCISE_STATS_START -->
 ## Exercise statistics
 
-- Javascript: 16 (recent: coordinate-transformation)
+- Javascript: 17 (recent: fruit-picker)
 - Php: 17 (recent: connect)
 - Typescript: 16 (recent: robot-name)
 
-- Total exercises: 49
+- Total exercises: 50
 <!-- EXERCISE_STATS_END -->
 
 ## Structure
