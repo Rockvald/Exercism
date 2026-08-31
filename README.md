@@ -8,9 +8,9 @@ All submissions are automatically synced from my Exercism account via the [Exerc
 
 - Javascript: 17 (recent: fruit-picker)
 - Php: 17 (recent: connect)
-- Typescript: 16 (recent: robot-name)
+- Typescript: 17 (recent: gigasecond)
 
-- Total exercises: 50
+- Total exercises: 51
 <!-- EXERCISE_STATS_END -->
 
 ## Structure
