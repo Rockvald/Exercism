@@ -8,9 +8,9 @@ All submissions are automatically synced from my Exercism account via the [Exerc
 
 - Javascript: 18 (recent: elyses-destructured-enchantments)
 - Php: 18 (recent: crypto-square)
-- Typescript: 17 (recent: gigasecond)
+- Typescript: 18 (recent: square-root)
 
-- Total exercises: 53
+- Total exercises: 54
 <!-- EXERCISE_STATS_END -->
 
 ## Structure
