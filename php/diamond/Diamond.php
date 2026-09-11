@@ -12,24 +12,20 @@ declare(strict_types=1);
  */
 function diamond(string $letter): array
 {
-    $letters = range('A', $letter);
-    $letters = array_merge($letters, array_reverse(array_slice($letters, 0, -1)));
-
-    $maxLength = count($letters);
+    $letters = implode('', range('A', $letter));
+    $reversedLetters = strrev($letters);
+    $letters = $reversedLetters . substr($letters, 1);
 
     $diamond = [];
-    foreach ($letters as $diamondLetter) {
-        if ($diamondLetter === 'A') {
-            $startEndSpaces = str_repeat(' ', ($maxLength -  1) / 2);
-            $diamond[] = $startEndSpaces . $diamondLetter . $startEndSpaces;
+    foreach (str_split($reversedLetters) as $letterIndex => $diamondLetter) {
+        $row = preg_replace("/[^$diamondLetter]/", ' ', $letters);
+        $diamond[] = $row;
+
+        if ($letterIndex === 0) {
             continue;
         }
 
-        $letterIndex = array_find_key($letters, fn($letter) => $letter === $diamondLetter);
-        $middleSpaces = str_repeat(' ', ($letterIndex * 2) - 1);
-        $startEndSpaces = str_repeat(' ', (int) floor(($maxLength - strlen($middleSpaces) - 2)) / 2);
-
-        $diamond[] = $startEndSpaces . $diamondLetter . $middleSpaces . $diamondLetter . $startEndSpaces;
+        array_unshift($diamond, $row);
     }
 
     return $diamond;
