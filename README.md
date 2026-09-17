@@ -8,9 +8,9 @@ All submissions are automatically synced from my Exercism account via the [Exerc
 
 - Javascript: 19 (recent: train-driver)
 - Php: 19 (recent: diamond)
-- Typescript: 18 (recent: square-root)
+- Typescript: 19 (recent: reverse-string)
 
-- Total exercises: 56
+- Total exercises: 57
 <!-- EXERCISE_STATS_END -->
 
 ## Structure
