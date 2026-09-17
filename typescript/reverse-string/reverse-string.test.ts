@@ -1,0 +1,39 @@
+import { describe, it, expect, xit } from '@jest/globals'
+import { reverse } from './reverse-string.ts'
+
+describe('Reverse String', () => {
+  it('an empty string', () => {
+    const expected = ''
+    expect(reverse('')).toEqual(expected)
+  })
+
+  xit('a word', () => {
+    const expected = 'tobor'
+    expect(reverse('robot')).toEqual(expected)
+  })
+
+  xit('a capitalized word', () => {
+    const expected = 'nemaR'
+    expect(reverse('Ramen')).toEqual(expected)
+  })
+
+  xit('a sentence with punctuation', () => {
+    const expected = `!yrgnuh m'I`
+    expect(reverse(`I'm hungry!`)).toEqual(expected)
+  })
+
+  xit('a palindrome', () => {
+    const expected = 'racecar'
+    expect(reverse('racecar')).toEqual(expected)
+  })
+
+  xit('an even-sized word', () => {
+    const expected = 'reward'
+    expect(reverse('drawer')).toEqual(expected)
+  })
+
+  xit('wide characters', () => {
+    const expected = '猫子'
+    expect(reverse('子猫')).toEqual(expected)
+  })
+})
