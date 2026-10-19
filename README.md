@@ -7,10 +7,10 @@ All submissions are automatically synced from my Exercism account via the [Exerc
 ## Exercise statistics
 
 - Javascript: 20 (recent: elyses-transformative-enchantments)
-- Php: 20 (recent: etl)
+- Php: 21 (recent: leap)
 - Typescript: 20 (recent: triangle)
 
-- Total exercises: 60
+- Total exercises: 61
 <!-- EXERCISE_STATS_END -->
 
 ## Structure
