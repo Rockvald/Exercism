@@ -6,11 +6,11 @@ All submissions are automatically synced from my Exercism account via the [Exerc
 <!-- EXERCISE_STATS_START -->
 ## Exercise statistics
 
-- Javascript: 21 (recent: elyses-analytic-enchantments)
+- Javascript: 22 (recent: elyses-looping-enchantments)
 - Php: 22 (recent: matching-brackets)
 - Typescript: 21 (recent: collatz-conjecture)
 
-- Total exercises: 64
+- Total exercises: 65
 <!-- EXERCISE_STATS_END -->
 
 ## Structure
