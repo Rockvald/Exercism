@@ -8,9 +8,9 @@ All submissions are automatically synced from my Exercism account via the [Exerc
 
 - Javascript: 22 (recent: elyses-looping-enchantments)
 - Php: 22 (recent: matching-brackets)
-- Typescript: 21 (recent: collatz-conjecture)
+- Typescript: 22 (recent: etl)
 
-- Total exercises: 65
+- Total exercises: 66
 <!-- EXERCISE_STATS_END -->
 
 ## Structure
