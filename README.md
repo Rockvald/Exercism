@@ -7,10 +7,10 @@ All submissions are automatically synced from my Exercism account via the [Exerc
 ## Exercise statistics
 
 - Javascript: 22 (recent: elyses-looping-enchantments)
-- Php: 22 (recent: matching-brackets)
+- Php: 23 (recent: meetup)
 - Typescript: 22 (recent: etl)
 
-- Total exercises: 66
+- Total exercises: 67
 <!-- EXERCISE_STATS_END -->
 
 ## Structure
