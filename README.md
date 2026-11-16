@@ -8,9 +8,9 @@ All submissions are automatically synced from my Exercism account via the [Exerc
 
 - Javascript: 23 (recent: pizza-order)
 - Php: 23 (recent: meetup)
-- Typescript: 22 (recent: etl)
+- Typescript: 23 (recent: protein-translation)
 
-- Total exercises: 68
+- Total exercises: 69
 <!-- EXERCISE_STATS_END -->
 
 ## Structure
