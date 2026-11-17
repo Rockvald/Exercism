@@ -6,6 +6,6 @@ class MicroBlog
 {
     public function truncate(string $text): string
     {
-        return join(array_slice(mb_str_split($text), 0, 5));
+        return mb_substr($text, 0, 5);
     }
 }
