@@ -7,10 +7,10 @@ All submissions are automatically synced from my Exercism account via the [Exerc
 ## Exercise statistics
 
 - Javascript: 23 (recent: pizza-order)
-- Php: 23 (recent: meetup)
+- Php: 24 (recent: micro-blog)
 - Typescript: 23 (recent: protein-translation)
 
-- Total exercises: 69
+- Total exercises: 70
 <!-- EXERCISE_STATS_END -->
 
 ## Structure
