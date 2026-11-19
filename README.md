@@ -6,11 +6,11 @@ All submissions are automatically synced from my Exercism account via the [Exerc
 <!-- EXERCISE_STATS_START -->
 ## Exercise statistics
 
-- Javascript: 23 (recent: pizza-order)
+- Javascript: 24 (recent: windowing-system)
 - Php: 24 (recent: micro-blog)
 - Typescript: 23 (recent: protein-translation)
 
-- Total exercises: 70
+- Total exercises: 71
 <!-- EXERCISE_STATS_END -->
 
 ## Structure
