@@ -32,7 +32,7 @@ export function convert(number: number): string {
     }
 
     if (result === '') {
-        return number.toString()
+        return number.toString();
     }
 
     return result;
