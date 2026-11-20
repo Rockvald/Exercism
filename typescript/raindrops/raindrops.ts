@@ -1,4 +1,20 @@
 /**
+ * Represents a map of numbers to their corresponding raindrop sounds.
+ */
+type RaindropSounds = {
+    [key: string]: string;
+};
+
+/**
+ * A map of numbers to their corresponding raindrop sounds.
+ */
+const raindropsMap: RaindropSounds = {
+    '3': 'Pling',
+    '5': 'Plang',
+    '7': 'Plong',
+};
+
+/**
  * Converts a number into its corresponding raindrop sounds.
  * If the number has no corresponding raindrop sounds, the number itself is returned.
  *
@@ -7,22 +23,16 @@
  * @returns The raindrop sounds corresponding to the number.
  */
 export function convert(number: number): string {
-    let result = "";
+    let result = '';
 
-    if (number % 3 === 0) {
-        result += "Pling";
+    for (const key of Object.keys(raindropsMap)) {
+        if (number % +key === 0) {
+            result += raindropsMap[key];
+        }
     }
 
-    if (number % 5 === 0) {
-        result += "Plang";
-    }
-
-    if (number % 7 === 0) {
-        result += "Plong";
-    }
-
-    if (result === "") {
-        result = number.toString();
+    if (result === '') {
+        return number.toString()
     }
 
     return result;
