@@ -17,16 +17,10 @@ function nucleotideCount(string $input): array
         throw new InvalidArgumentException('Invalid nucleotide');
     }
 
-    $count = [
-        'a' => 0,
-        'c' => 0,
-        't' => 0,
-        'g' => 0,
+    return [
+        'a' => substr_count($input, 'A'),
+        'c' => substr_count($input, 'C'),
+        't' => substr_count($input, 'T'),
+        'g' => substr_count($input, 'G'),
     ];
-
-    foreach (str_split(strtolower($input)) as $char) {
-        $count[$char]++;
-    }
-
-    return $count;
 }
