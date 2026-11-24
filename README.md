@@ -6,11 +6,11 @@ All submissions are automatically synced from my Exercism account via the [Exerc
 <!-- EXERCISE_STATS_START -->
 ## Exercise statistics
 
-- Javascript: 24 (recent: windowing-system)
+- Javascript: 25 (recent: ozans-playlist)
 - Php: 25 (recent: nucleotide-count)
 - Typescript: 24 (recent: raindrops)
 
-- Total exercises: 73
+- Total exercises: 74
 <!-- EXERCISE_STATS_END -->
 
 ## Structure
