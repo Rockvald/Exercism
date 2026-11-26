@@ -8,9 +8,9 @@ All submissions are automatically synced from my Exercism account via the [Exerc
 
 - Javascript: 25 (recent: ozans-playlist)
 - Php: 25 (recent: nucleotide-count)
-- Typescript: 24 (recent: raindrops)
+- Typescript: 25 (recent: hamming)
 
-- Total exercises: 74
+- Total exercises: 75
 <!-- EXERCISE_STATS_END -->
 
 ## Structure
